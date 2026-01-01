@@ -10,6 +10,13 @@ public class Utm
         Campaign = campaign;
     }
 
-    public Url Url { get; private set; }
-    public Campaign Campaign { get; private set; }
+    /// <summary>
+    /// Gets the URL associated with the current UTM instance.
+    /// </summary>
+    public Url Url { get; }
+
+    /// <summary>
+    /// Represents a campaign within a UTM (Urchin Tracking Module) context.
+    /// </summary>
+    public Campaign Campaign { get; }
 }
