@@ -4,6 +4,12 @@ namespace UtmBuilder.Core.Entities;
 
 public class Utm
 {
-    public Url Url { get; private set; } = new();
-    public Campaign Campaign { get; private set; } = new();
+    public Utm(Url url, Campaign campaign)
+    {
+        Url = url;
+        Campaign = campaign;
+    }
+
+    public Url Url { get; private set; }
+    public Campaign Campaign { get; private set; }
 }
