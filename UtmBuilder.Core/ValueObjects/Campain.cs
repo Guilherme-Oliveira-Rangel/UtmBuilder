@@ -1,6 +1,6 @@
 ﻿namespace UtmBuilder.Core.ValueObjects;
 
-public class Campain
+public class Campain : ValueObject
 {
     public string Id { get; private set; }
     public string Source { get; private set; }
