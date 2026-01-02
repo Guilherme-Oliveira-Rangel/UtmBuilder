@@ -1,4 +1,6 @@
-﻿namespace UtmBuilder.Core.ValueObjects;
+﻿using UtmBuilder.Core.ValueObjects.Exceptions;
+
+namespace UtmBuilder.Core.ValueObjects;
 
 /// <summary>
 /// Represents a URL value object for defining a web address within the UTM builder context.
@@ -20,6 +22,7 @@ public class Url : ValueObject
     public Url(string address)
     {
         Address = address;
+        InvalidUrlException.ThrowIfInvalidUrl(address);
     }
 
     /// <summary>
