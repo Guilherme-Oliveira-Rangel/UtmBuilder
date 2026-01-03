@@ -5,7 +5,7 @@ namespace UtmBuilder.Core.Tests.ValueObjects;
 
 public class UrlTests
 {
-    private const string ValidUrl = "https://example.com";
+    private const string ValidUrl = "https://example.com/";
     private const string InvalidUrl = "";
 
     [Fact]
