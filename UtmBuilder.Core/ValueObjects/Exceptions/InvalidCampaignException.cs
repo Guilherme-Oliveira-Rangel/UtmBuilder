@@ -10,6 +10,6 @@ public class InvalidCampaignException : Exception
 
     public static void ThrowIfInvalidCampaign(string? item, string message = DefaultErrorMessage)
     {
-        if (string.IsNullOrWhiteSpace(item)) throw new InvalidUrlException(message);
+        if (string.IsNullOrWhiteSpace(item)) throw new InvalidCampaignException(message);
     }
 }
