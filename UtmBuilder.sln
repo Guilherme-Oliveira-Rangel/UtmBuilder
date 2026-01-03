@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtmBuilder.Core", "UtmBuilder.Core\UtmBuilder.Core.csproj", "{5C883578-E9F9-4BC1-B104-F6CBA61B2015}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtmBuilder.Core.Tests", "UtmBuilder.Core.Tests\UtmBuilder.Core.Tests.csproj", "{A1ECF750-545D-404E-9BD6-F7644638BCFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,18 @@ Global
 		{5C883578-E9F9-4BC1-B104-F6CBA61B2015}.Release|x64.Build.0 = Release|Any CPU
 		{5C883578-E9F9-4BC1-B104-F6CBA61B2015}.Release|x86.ActiveCfg = Release|Any CPU
 		{5C883578-E9F9-4BC1-B104-F6CBA61B2015}.Release|x86.Build.0 = Release|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Debug|x64.Build.0 = Debug|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Debug|x86.Build.0 = Debug|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Release|x64.ActiveCfg = Release|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Release|x64.Build.0 = Release|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Release|x86.ActiveCfg = Release|Any CPU
+		{A1ECF750-545D-404E-9BD6-F7644638BCFD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
