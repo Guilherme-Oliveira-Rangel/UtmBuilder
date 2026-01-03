@@ -8,8 +8,8 @@ public class InvalidCampaignException : Exception
     {
     }
 
-    public static void ThrowIfInvalidCampaign(string? item, string message = DefaultErrorMessage)
+    public static void ThrowIfNull(string? item, string message = DefaultErrorMessage)
     {
-        if (string.IsNullOrWhiteSpace(item)) throw new InvalidCampaignException(message);
+        if (string.IsNullOrEmpty(item)) throw new InvalidCampaignException(message);
     }
 }

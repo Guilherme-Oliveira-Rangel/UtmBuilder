@@ -31,9 +31,9 @@ public class Campaign : ValueObject
         Term = term;
         Content = content;
 
-        InvalidCampaignException.ThrowIfInvalidCampaign(source, "Invalid source.");
-        InvalidCampaignException.ThrowIfInvalidCampaign(medium, "Invalid medium.");
-        InvalidCampaignException.ThrowIfInvalidCampaign(name, "Invalid name.");
+        InvalidCampaignException.ThrowIfNull(source, "Invalid source.");
+        InvalidCampaignException.ThrowIfNull(medium, "Invalid medium.");
+        InvalidCampaignException.ThrowIfNull(name, "Invalid name.");
     }
 
     /// <summary>
