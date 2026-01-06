@@ -111,14 +111,3 @@ dotnet test
 ## License
 
 This project is open source and available under the MIT License.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Learn More
-
-To learn more about UTM parameters and campaign tracking:
-
-- [Google Analytics UTM Parameters](https://support.google.com/analytics/answer/1033863)
-- [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/)
